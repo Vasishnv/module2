@@ -8,7 +8,7 @@ function Func() {
     const dec =()=>{setcount(count-1)};
   return (
     <div style={maindiv}>
-        <h1>this is done by functional component</h1>
+        <h1>This is done by functional component</h1>
         <div style={maindiv}>
             <h2 style={divstyle}>{count}</h2>
             <div>

@@ -17,7 +17,7 @@ export default class Classc extends Component {
   render() {
     return (
       <div style={maindiv}>
-        <h1>this is done using class component</h1>
+        <h1>This is done using class component</h1>
         <div style={maindiv}>
             <div  style={divstyle}>{this.state.cnt}</div>
            <div>
