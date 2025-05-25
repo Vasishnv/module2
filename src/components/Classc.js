@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { ButtonStyle,maindiv,divstyle } from './Func';
 export default class Classc extends Component {
 
     constructor(props){
@@ -16,12 +16,14 @@ export default class Classc extends Component {
 
   render() {
     return (
-      <div>
+      <div style={maindiv}>
         <h1>this is done using class component</h1>
-        <div>
-            <h2>{this.state.cnt}</h2>
-            <button onClick={this.inc}>+</button>
-            <button onClick={this.dec}>-</button>
+        <div style={maindiv}>
+            <div  style={divstyle}>{this.state.cnt}</div>
+           <div>
+             <button onClick={this.inc} style={ButtonStyle}>+</button>
+            <button onClick={this.dec} style={ButtonStyle}>-</button>
+           </div>
         </div>
 
       </div>
